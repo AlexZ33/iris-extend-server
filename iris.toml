@@ -1,0 +1,13 @@
+# iris application
+
+DisablePathCorrection = false
+EnablePathEscape = false
+EnableOptimizations = true
+FireMethodNotAllowed = true
+DisableBodyConsumptionOnUnmarshal = false
+PostMaxMemory = 1073741824
+TimeFormat = "Mon, 01 Jan 2006 15:04:05 GMT"
+Charset = "UTF-8"
+
+[Other]
+ServerEnvironment = "local"
