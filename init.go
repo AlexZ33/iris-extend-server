@@ -52,7 +52,7 @@ func init() {
 			Env = "local"
 		}
 	}
-	Path = getFilePath(Filename)
+	Path = getFilePath("")
 	if config, ok := Configure(Path); ok {
 		Config = config
 	} else {
